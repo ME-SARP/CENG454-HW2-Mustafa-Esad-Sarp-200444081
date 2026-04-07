@@ -7,9 +7,9 @@ Darwin version:          24.6.0
 Architecture:            x86_64
 Running under Rosetta:   YES
 Available memory:        16384 MB
-Date:                    2026-04-07T10:35:21Z
+Date:                    2026-04-07T13:42:31Z
 [Licensing::Module] Trying to connect to existing licensing client channel...
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-esadsarp" at "2026-04-07T10:35:21.287503Z"
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-esadsarp" at "2026-04-07T13:42:31.110161Z"
 
 COMMAND LINE ARGUMENTS:
 /Applications/Unity/Hub/Editor/6000.3.11f1/Unity.app/Contents/MacOS/Unity
@@ -23,7 +23,7 @@ AssetImportWorker1
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-54997
+55576
 -licensingIpc
 LicenseClient-esadsarp
 -job-worker-count
@@ -70,12 +70,12 @@ Successfully changed project path to: /Users/esadsarp/Desktop/Masaüstü/CENG4
     "memorysetup-job-temp-allocator-block-size-background=1048576"
     "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [8768025088]  Target information:
+Player connection [8760099328]  Target information:
 
-Player connection [8768025088]  * "[IP] 192.168.1.102 [Port] 0 [Flags] 2 [Guid] 1314389687 [EditorId] 1314389687 [Version] 1048832 [Id] OSXEditor(0,Mustafa-MacBook-Air-2.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
+Player connection [8760099328]  * "[IP] 192.168.1.102 [Port] 0 [Flags] 2 [Guid] 1908856125 [EditorId] 1908856125 [Version] 1048832 [Id] OSXEditor(0,Mustafa-MacBook-Air-2.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
 
-Player connection [8768025088] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [8768025088] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [8760099328] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [8760099328] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 4
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -87,7 +87,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 3.51 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 2.16 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.3.11f1 (3000ef702840)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/6000.3.11f1/Unity.app/Contents/Resources/UnitySubsystems
@@ -108,28 +108,28 @@ Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/6000.3.11f1/Unity.app/Contents/Resources/Scripting/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/6000.3.11f1/Unity.app/Contents/Resources/Scripting/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Applications/Unity/Hub/Editor/6000.3.11f1/Unity.app/Contents/Resources/Scripting/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56752
-Begin MonoManager ReloadAssembly
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56062
 [Licensing::Client] Error: HandshakeResponse reported an error:
 	ResponseCode: 505
 	ResponseStatus: Unsupported protocol version '1.18.0'.
 [Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-esadsarp"
 [Licensing::IpcConnector] LicenseClient-esadsarp channel disconnected successfully.
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-esadsarp-6000.3.11" at "2026-04-07T10:35:21.620182Z"
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-esadsarp-6000.3.11" at "2026-04-07T13:42:31.366393Z"
 [Licensing::Client] Handshaking with LicensingClient:
   Version:                 1.18.0+23225a6
-  Session Id:              1b4ffc1ec9924be6afa5980e7a1d7476
-  Correlation Id:          eafe2499c125675cfc710e5202d8ba29
-  External correlation Id: 5788024657736713695
+  Session Id:              7aec8045cc024878b1a35d631ec2e3f4
+  Correlation Id:          e9d31504571802beec6f265ff2a1686e
+  External correlation Id: 6566067922366361571
   Machine Id:              zaTNHe1/8h2nGfGrFqAfldFCJaU=
 [Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-esadsarp-6000.3.11" (connect: 0.00s, validation: 0.00s, handshake: 0.02s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-esadsarp-6000.3.11-notifications" at "2026-04-07T10:35:21.640895Z"
-[Licensing::Module] Licensing Background thread has ended after 0.35s
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-esadsarp-6000.3.11-notifications" at "2026-04-07T13:42:31.388125Z"
+[Licensing::Module] Licensing Background thread has ended after 0.28s
+Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/6000.3.11f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/6000.3.11f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.000393 seconds.
-- Loaded All Assemblies, in  0.513 seconds
+Registered in 0.000435 seconds.
+- Loaded All Assemblies, in  0.459 seconds
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
 Package Manager log level set to [2]
@@ -138,35 +138,35 @@ Package Manager log level set to [2]
 [Package Manager] Cannot connect to Unity Package Manager local server
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.245 seconds
-Domain Reload Profiling: 1758ms
-	BeginReloadAssembly (177ms)
+- Finished resetting the current domain, in  1.221 seconds
+Domain Reload Profiling: 1680ms
+	BeginReloadAssembly (157ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (3ms)
-	RebuildCommonClasses (42ms)
-	RebuildNativeTypeToScriptingClass (13ms)
-	initialDomainReloadingComplete (115ms)
-	LoadAllAssembliesAndSetupDomain (167ms)
-		LoadAssemblies (174ms)
+		CreateAndSetChildDomain (2ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (96ms)
+	LoadAllAssembliesAndSetupDomain (161ms)
+		LoadAssemblies (155ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (160ms)
-			TypeCache.Refresh (157ms)
-				TypeCache.ScanAssembly (143ms)
+		AnalyzeDomain (154ms)
+			TypeCache.Refresh (152ms)
+				TypeCache.ScanAssembly (138ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (1246ms)
+	FinalizeReload (1222ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1185ms)
+		SetupLoadedEditorAssemblies (1162ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (193ms)
-			SetLoadedEditorAssemblies (9ms)
-			BeforeProcessingInitializeOnLoad (380ms)
-			ProcessInitializeOnLoadAttributes (433ms)
-			ProcessInitializeOnLoadMethodAttributes (169ms)
+			InitializePlatformSupportModulesInManaged (192ms)
+			SetLoadedEditorAssemblies (8ms)
+			BeforeProcessingInitializeOnLoad (362ms)
+			ProcessInitializeOnLoadAttributes (426ms)
+			ProcessInitializeOnLoadMethodAttributes (174ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -182,8 +182,8 @@ Begin MonoManager ReloadAssembly
   Product: Unity Personal
   Type: Assigned
   Expiration: Unlimited
-- Loaded All Assemblies, in  0.873 seconds
-Refreshing native plugins compatible for Editor in 0.23 ms, found 1 plugins.
+- Loaded All Assemblies, in  0.818 seconds
+Refreshing native plugins compatible for Editor in 0.20 ms, found 1 plugins.
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
@@ -194,197 +194,110 @@ Native extension for WebGL target not found
 [Package Manager] Cannot connect to Unity Package Manager local server
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.648 seconds
-Domain Reload Profiling: 2521ms
-	BeginReloadAssembly (252ms)
+- Finished resetting the current domain, in  1.616 seconds
+Domain Reload Profiling: 2435ms
+	BeginReloadAssembly (249ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (30ms)
+		DisableScriptedObjects (32ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (30ms)
 	RebuildCommonClasses (33ms)
 	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (96ms)
-	LoadAllAssembliesAndSetupDomain (481ms)
-		LoadAssemblies (413ms)
+	initialDomainReloadingComplete (77ms)
+	LoadAllAssembliesAndSetupDomain (447ms)
+		LoadAssemblies (379ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (181ms)
+		AnalyzeDomain (175ms)
 			TypeCache.Refresh (123ms)
-				TypeCache.ScanAssembly (111ms)
-			BuildScriptInfoCaches (42ms)
-			ResolveRequiredComponents (14ms)
-	FinalizeReload (1649ms)
+				TypeCache.ScanAssembly (110ms)
+			BuildScriptInfoCaches (41ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (1617ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1405ms)
+		SetupLoadedEditorAssemblies (1377ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (6ms)
+			InitializePlatformSupportModulesInManaged (5ms)
 			SetLoadedEditorAssemblies (6ms)
-			BeforeProcessingInitializeOnLoad (378ms)
-			ProcessInitializeOnLoadAttributes (912ms)
+			BeforeProcessingInitializeOnLoad (368ms)
+			ProcessInitializeOnLoadAttributes (894ms)
 			ProcessInitializeOnLoadMethodAttributes (103ms)
 			AfterProcessingInitializeOnLoad (1ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (7ms)
 Launching external process: /Applications/Unity/Hub/Editor/6000.3.11f1/Unity.app/Contents/Helpers/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.07 seconds
-Refreshing native plugins compatible for Editor in 0.40 ms, found 1 plugins.
+Launched and connected shader compiler UnityShaderCompiler after 0.08 seconds
+Refreshing native plugins compatible for Editor in 0.36 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 3895 unused Assets / (293.9 KB). Loaded Objects now: 4493.
-Memory consumption went from 101.1 MB to 100.8 MB.
-Total: 5.542333 ms (FindLiveObjects: 0.845042 ms CreateObjectMapping: 0.150125 ms MarkObjects: 3.919584 ms  DeleteObjects: 0.626917 ms)
+Unloading 3897 unused Assets / (0.8 MB). Loaded Objects now: 4509.
+Memory consumption went from 103.2 MB to 102.4 MB.
+Total: 5.097500 ms (FindLiveObjects: 0.661208 ms CreateObjectMapping: 0.099583 ms MarkObjects: 3.776250 ms  DeleteObjects: 0.559958 ms)
 
 ========================================================================
-Received Import Request.
-  Time since last request: 122090.285890 seconds.
-  path: Assets/Tiny Teacup Studio/Military Base Pack/Prefabs/Props
-  artifactKey: Guid(7ec96097fc27c4e4d83ddce08e51631e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Tiny Teacup Studio/Military Base Pack/Prefabs/Props using Guid(7ec96097fc27c4e4d83ddce08e51631e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7d97c0f48e9667e1ac51a7f651b7d552') in 0.110002209 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+- Loaded All Assemblies, in  0.841 seconds
+Refreshing native plugins compatible for Editor in 0.22 ms, found 1 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.653 seconds
+Domain Reload Profiling: 2496ms
+	BeginReloadAssembly (307ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (32ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (65ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (57ms)
+	LoadAllAssembliesAndSetupDomain (434ms)
+		LoadAssemblies (413ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (147ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (126ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (1654ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1404ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (383ms)
+			ProcessInitializeOnLoadAttributes (904ms)
+			ProcessInitializeOnLoadMethodAttributes (105ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 0.28 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3895 unused Assets / (0.6 MB). Loaded Objects now: 4511.
+Memory consumption went from 110.1 MB to 109.5 MB.
+Total: 4.978334 ms (FindLiveObjects: 0.518959 ms CreateObjectMapping: 0.147583 ms MarkObjects: 3.685125 ms  DeleteObjects: 0.626042 ms)
 
+Prepare: number of updated asset objects reloaded= 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000066 seconds.
-  path: Assets/Tiny Teacup Studio/Military Base Pack/Demo/DemoScene
-  artifactKey: Guid(35c5d28473e6aee42939214407445314) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Tiny Teacup Studio/Military Base Pack/Demo/DemoScene using Guid(35c5d28473e6aee42939214407445314) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2b7703e8bbda576ed479189357dff09d') in 0.007172709 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000103 seconds.
-  path: Assets/Tiny Teacup Studio/Military Base Pack/Models/Buildings
-  artifactKey: Guid(8fa53bc73c082b644a0c77677d837d39) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Tiny Teacup Studio/Military Base Pack/Models/Buildings using Guid(8fa53bc73c082b644a0c77677d837d39) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7485f3cdfc68a3c0ee1167e7fa8c4457') in 0.001704167 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000131 seconds.
-  path: Assets/Tiny Teacup Studio/Military Base Pack/Models/Ground
-  artifactKey: Guid(fda20546e47a65e4eb95e36c8afeac8c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Tiny Teacup Studio/Military Base Pack/Models/Ground using Guid(fda20546e47a65e4eb95e36c8afeac8c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9b7e43c1cb887ca152efdb78a1902f6a') in 0.001274833 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000105 seconds.
-  path: Assets/POLYGRUNT - Lowpoly Rafale Jet/Materials
-  artifactKey: Guid(a63bc7014d0cfcf4aadb187f913a1d29) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/POLYGRUNT - Lowpoly Rafale Jet/Materials using Guid(a63bc7014d0cfcf4aadb187f913a1d29) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '98fdb57e6781290e1f000e4fc53ce85d') in 0.001821 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000125 seconds.
-  path: Assets/Tiny Teacup Studio/Military Base Pack/Prefabs/Ground
-  artifactKey: Guid(7e7c826f4f9c4a8409365d93c43bcadd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Tiny Teacup Studio/Military Base Pack/Prefabs/Ground using Guid(7e7c826f4f9c4a8409365d93c43bcadd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3fdb561f78b74d26ef51d0c48177af5e') in 0.001350542 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000062 seconds.
-  path: Assets/Tiny Teacup Studio/Military Base Pack/Demo/Animations
-  artifactKey: Guid(9c6714e6011a8f54ca9b2af3a3a2e8d5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Tiny Teacup Studio/Military Base Pack/Demo/Animations using Guid(9c6714e6011a8f54ca9b2af3a3a2e8d5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'fcfbdc88d1c06fed07de6beca9a7c095') in 0.000963625 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000070 seconds.
-  path: Assets/Tiny Teacup Studio/Military Base Pack/Demo
-  artifactKey: Guid(85428c1e62f374f0996b96fb3f064bb9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Tiny Teacup Studio/Military Base Pack/Demo using Guid(85428c1e62f374f0996b96fb3f064bb9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2b12baefac0a4dd7c025c7ebed8c271e') in 0.000898083 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000069 seconds.
-  path: Assets/Scenes
-  artifactKey: Guid(9c53962885c2c4f449125a979d6ad240) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Scenes using Guid(9c53962885c2c4f449125a979d6ad240) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '023186d3531cda84e7af2effc4d5e8f8') in 0.000673208 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000062 seconds.
-  path: Assets/Tiny Teacup Studio/Military Base Pack/Models/Props
-  artifactKey: Guid(54fe377cf400c334aa5888211cd0c628) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Tiny Teacup Studio/Military Base Pack/Models/Props using Guid(54fe377cf400c334aa5888211cd0c628) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '19a82cafb641cc92b197677eaa9adf93') in 0.000605084 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000087 seconds.
-  path: Assets/POLYGRUNT - Lowpoly Rafale Jet/Scenes
-  artifactKey: Guid(08791f223cea0c446826e96d85ad3d39) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/POLYGRUNT - Lowpoly Rafale Jet/Scenes using Guid(08791f223cea0c446826e96d85ad3d39) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9a4f743064215da376c0e8d50e40728d') in 0.000715333 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/models
-  artifactKey: Guid(99670afff7b4f4fb494f965dba0aa9b6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/models using Guid(99670afff7b4f4fb494f965dba0aa9b6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '210c5984e840f194a23e6e2da0926330') in 0.000812208 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000077 seconds.
-  path: Assets/Tiny Teacup Studio/Military Base Pack/Models
-  artifactKey: Guid(e1295b6a4e2252f43a02526999c205c3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Tiny Teacup Studio/Military Base Pack/Models using Guid(e1295b6a4e2252f43a02526999c205c3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e1fd6e6e9d290ce0bce17e33c4f3d99a') in 0.000691167 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000068 seconds.
-  path: Assets/POLYGRUNT - Lowpoly Rafale Jet/3D Models
-  artifactKey: Guid(91099259253538242b46ebfa2091256b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/POLYGRUNT - Lowpoly Rafale Jet/3D Models using Guid(91099259253538242b46ebfa2091256b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '46a6bb4b3d204a137caa7a15656f5625') in 0.003976666 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000056 seconds.
-  path: Assets/Tiny Teacup Studio
-  artifactKey: Guid(e3cd6434df96c3244a360ff1b6941b4b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Tiny Teacup Studio using Guid(e3cd6434df96c3244a360ff1b6941b4b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6e7cf98ef3cfba63225b41835b3f1fa1') in 0.00095875 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000050 seconds.
-  path: Assets/Tiny Teacup Studio/Military Base Pack/Materials
-  artifactKey: Guid(97be2326e9e44984da8eaa07380d94de) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Tiny Teacup Studio/Military Base Pack/Materials using Guid(97be2326e9e44984da8eaa07380d94de) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ed752127ff06b929d7a51da7e13fcc94') in 0.001395458 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/POLYGRUNT - Lowpoly Rafale Jet/Prefabs
-  artifactKey: Guid(5436b884526ca1544aa4bccfc2efd90b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/POLYGRUNT - Lowpoly Rafale Jet/Prefabs using Guid(5436b884526ca1544aa4bccfc2efd90b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '11c63327b3fed4a05f62d76553c6ea25') in 0.001506291 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000131 seconds.
-  path: Assets/Tiny Teacup Studio/Military Base Pack/Prefabs
-  artifactKey: Guid(0a628dab80294134ba3ec016dd3aba0b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Tiny Teacup Studio/Military Base Pack/Prefabs using Guid(0a628dab80294134ba3ec016dd3aba0b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3f7edc638372d0c293837baf3e016edf') in 0.001262916 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000127 seconds.
-  path: Assets/Tiny Teacup Studio/Military Base Pack/Prefabs/Buildings
-  artifactKey: Guid(386f2fbd1d2ac904cabcbed18bbffc95) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Tiny Teacup Studio/Military Base Pack/Prefabs/Buildings using Guid(386f2fbd1d2ac904cabcbed18bbffc95) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a7717c3f266fd09116be7cbad56fb9ed') in 0.001246875 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+  Time since last request: 133539.936836 seconds.
+  path: Assets/scripts/DangerZoneController.cs
+  artifactKey: Guid(20630403120874e95837eebab587a182) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/DangerZoneController.cs using Guid(20630403120874e95837eebab587a182) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e537b0d897187d9bea122f3b894c99ed') in 0.006371333 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
