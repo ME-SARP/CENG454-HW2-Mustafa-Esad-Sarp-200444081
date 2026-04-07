@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1470
     height: 819
   m_ShowMode: 4
-  m_Title: Scene
+  m_Title: Game
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -972,9 +972,9 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
-    m_Target: {x: 72.359764, y: 2.8157625, z: 75.06664}
+    m_Target: {x: 45.207687, y: 0.8432317, z: 94.88897}
     speed: 2
-    m_Value: {x: 72.359764, y: 2.8157625, z: 75.06664}
+    m_Value: {x: 45.207687, y: 0.8432317, z: 94.88897}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1020,13 +1020,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.17687169, y: 0.8006011, z: -0.28528503, w: 0.4963621}
+    m_Target: {x: 0.097943656, y: -0.3248298, z: 0.03384585, w: 0.9400929}
     speed: 2
-    m_Value: {x: 0.17687169, y: 0.8006011, z: -0.28528506, w: 0.49636212}
+    m_Value: {x: -0.097943656, y: 0.3248298, z: -0.03384585, w: -0.940093}
   m_Size:
-    m_Target: 12.124355
+    m_Target: 16.11559
     speed: 2
-    m_Value: 12.124355
+    m_Value: 16.11559
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -1105,10 +1105,7 @@ MonoBehaviour:
       m_LastClickedID:
         m_Data: 0
       m_ExpandedIDs:
-      - m_Data: -1698
-      - m_Data: -1290
-      - m_Data: 36994
-      - m_Data: 38004
+      - m_Data: -1336
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1286,7 +1283,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/scripts
+    - Assets
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
@@ -1296,21 +1293,21 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/scripts
+  - Assets
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: /Users/esadsarp/Desktop/Desktop/CENG454-HW2-Mustafa-Esad-SARP-200444081
+  m_LastProjectPath: "/Users/esadsarp/Desktop/Masau\u0308stu\u0308/CENG454-HW2-Mustafa-Esad-SARP-200444081"
   m_LockTracker:
     m_IsLocked: 0
   m_LastLocalAssetsSearchArea: 1
   m_FolderTreeState:
     scrollPos: {x: 0, y: 74.5}
     m_SelectedIDs:
-    - m_Data: 35504
+    - m_Data: 63782
     m_LastClickedID:
-      m_Data: 35504
+      m_Data: 63782
     m_ExpandedIDs:
     - m_Data: 0
-    - m_Data: 39978
+    - m_Data: 39974
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1343,7 +1340,7 @@ MonoBehaviour:
       m_Data: 0
     m_ExpandedIDs:
     - m_Data: 0
-    - m_Data: 39978
+    - m_Data: 39974
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1371,9 +1368,9 @@ MonoBehaviour:
       m_ResourceFile: 
   m_ListAreaState:
     m_SelectedInstanceIDs:
-    - m_Data: 39202
-    m_LastClickedInstanceID: 39202
-    m_HadKeyboardFocusLastEvent: 1
+    - m_Data: 63398
+    m_LastClickedInstanceID: 63398
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: []
     m_RenameOverlay:
       m_UserAcceptedRename: 0
